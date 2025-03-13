@@ -1,16 +1,16 @@
 <?php
 /**
- * Functions for the Harvest admin theme.
- * @since 1.7
+ * Functions for the Sky admin theme.
+ * @since 1.2
  *
  * @package ReallySimpleCMS
- * @subpackage Harvest
+ * @subpackage Sky
  */
 
-registerAdminTheme('harvest', array(
+registerAdminTheme('sky', array(
 	'author' => array(
 		'name' => 'Jace Fincham',
 		'url' => 'https://jacefincham.com/'
 	),
-	'version' => '1.8'
+	'version' => '1.3'
 ));

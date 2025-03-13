@@ -1,9 +1,10 @@
 <?php
 /**
- * Forest admin theme functions.
+ * Functions for the Forest admin theme.
  * @since 1.6
  *
- * @package Forest
+ * @package ReallySimpleCMS
+ * @subpackage Forest
  */
 
 registerAdminTheme('forest', array(
@@ -11,5 +12,5 @@ registerAdminTheme('forest', array(
 		'name' => 'Jace Fincham',
 		'url' => 'https://jacefincham.com/'
 	),
-	'version' => '1.6'
+	'version' => '1.7'
 ));

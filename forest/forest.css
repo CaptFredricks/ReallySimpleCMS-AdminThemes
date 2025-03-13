@@ -1,59 +1,46 @@
 /*!
- * Admin dashboard Forest theme.
- * @since 2.0.7-alpha
- * @version 1.6
+ * Styles for the Forest admin theme.
+ * Primary colors are green, brown, and yellow.
+ * @since 1.0
+ * @version 1.7
  *
  * @package ReallySimpleCMS
+ * @subpackage Forest
  */
 
 :root {
 	
 	/* Background colors */
 	
-	--global--bg-color: #2f2f19;
-	--global--header-notice-bg-color: #0f0f00;
-	--global--menu-bg-color: #0f6f2f;
-	--global--menu-hover-bg-color: #2f1f00;
-	--global--submenu-bg-color: #0f7f3f;
-	--global--graph-overlay-bg-color: #3d9d1d;
-	--global--table-bg-color: #bded9d;
-	--global--table-odd-bg-color: #addd8d;
-	--global--form-bg-color: #091f0c;
-	--global--input-bg-color: #ddffbd;
-	--global--modal-bg-color: #0f4f1f;
-	--global--active-tab-bg-color: #082f0f;
+	--rscms__bg-color: #2f2f19;
+	--rscms__header-notice-bg-color: #0f0f00;
+	--rscms__menu-bg-color: #0f6f2f;
+	--rscms__menu-hover-bg-color: #2f1f00;
+	--rscms__submenu-bg-color: #0f7f3f;
+	--rscms__graph-overlay-bg-color: #3d9d1d;
+	--rscms__graph-bar-bg-color: #c6fa60;
+	--rscms__graph-bar-hover-bg-color: #ddff76;
+	--rscms__table-bg-color: #bded9d;
+	--rscms__table-odd-bg-color: #addd8d;
+	--rscms__form-bg-color: #091f0c;
+	--rscms__input-bg-color: #ddffbd;
+	--rscms__modal-bg-color: #0f4f1f;
+	--rscms__active-tab-bg-color: #082f0f;
 	
 	/* Border colors */
 	
-	--global--graph-border-color: #9dcd7d;
-	--global--table-border-color: #8dbd6d;
-	--global--form-border-color: #6fdf2f;
-	--global--input-border-color: #7dad5d;
-	--global--modal-border-color: var(--global--form-border-color);
+	--rscms__graph-border-color: #9dcd7d;
+	--rscms__graph-overlay-border-color: #9ddd6d;
+	--rscms__table-border-color: #8dbd6d;
+	--rscms__form-border-color: #6fdf2f;
+	--rscms__input-border-color: #7dad5d;
+	--rscms__modal-border-color: var(--rscms__form-border-color);
 	
 	/* Text/link colors */
 	
-	--global--text-color: #fff;
-	--global--link-color: #c6fa60;
-	--global--secondary-link-color: #369a20;
-	--global--submenu-hover-link-color: #f6ca60;
-	--global--table-color: #0a1004;
-}
-
-/*------------------------------------*\
-    CONTENT
-\*------------------------------------*/
-
-/* Statistics graph */
-
-.graph-content > li .bar {
-	background-color: #c6fa60;
-}
-
-.graph-content > li .bar:hover {
-	background-color: #ddff76;
-}
-
-.graph-overlay li {
-	border-bottom-color: #9ddd6d;
+	--rscms__text-color: #fff;
+	--rscms__link-color: #c6fa60;
+	--rscms__secondary-link-color: #369a20;
+	--rscms__submenu-hover-link-color: #f6ca60;
+	--rscms__table-color: #0a1004;
 }

@@ -1,62 +1,49 @@
 /*!
- * Admin dashboard Sunset theme.
- * @since 2.0.7-alpha
- * @version 1.8
+ * Styles for the Sunset admin theme.
+ * Primary colors are purple, pink, and orange.
+ * @since 1.0
+ * @version 1.9
  *
  * @package ReallySimpleCMS
+ * @subpackage Sunset
  */
 
 :root {
 	
 	/* Background colors */
 	
-	--global--bg-color: #2f001f;
-	--global--header-notice-bg-color: #0f0000;
-	--global--menu-bg-color: #8f3f6f;
-	--global--menu-hover-bg-color: #0f062f;
-	--global--submenu-bg-color: #bf1f4f;
-	--global--graph-overlay-bg-color: #ad5d8d;
-	--global--table-bg-color: #fdaddd;
-	--global--table-odd-bg-color: #ed9dcd;
-	--global--form-bg-color: #1a001f;
-	--global--input-bg-color: #ffcdfd;
-	--global--modal-bg-color: #6f1f4f;
-	--global--modal-details-bg-color: #7f2f5f;
-	--global--active-tab-bg-color: #3f0f2f;
+	--rscms__bg-color: #2f001f;
+	--rscms__header-notice-bg-color: #0f0000;
+	--rscms__menu-bg-color: #8f3f6f;
+	--rscms__menu-hover-bg-color: #0f062f;
+	--rscms__submenu-bg-color: #bf1f4f;
+	--rscms__graph-overlay-bg-color: #ad5d8d;
+	--rscms__graph-bar-bg-color: #fa7016;
+	--rscms__graph-bar-hover-bg-color: #ff8026;
+	--rscms__table-bg-color: #fdaddd;
+	--rscms__table-odd-bg-color: #ed9dcd;
+	--rscms__form-bg-color: #1a001f;
+	--rscms__input-bg-color: #ffcdfd;
+	--rscms__modal-bg-color: #6f1f4f;
+	--rscms__modal-details-bg-color: #7f2f5f;
+	--rscms__active-tab-bg-color: #3f0f2f;
 	
 	/* Border colors */
 	
-	--global--graph-border-color: #dd8dbd;
-	--global--table-border-color: #cd7dad;
-	--global--table-separator-color: #5f3f7f;
-	--global--form-border-color: #fd4d5d;
-	--global--input-border-color: #bd6d9d;
-	--global--modal-border-color: var(--global--form-border-color);
+	--rscms__graph-border-color: #dd8dbd;
+	--rscms__graph-overlay-border-color: #dd8dad;
+	--rscms__table-border-color: #cd7dad;
+	--rscms__table-separator-color: #5f3f7f;
+	--rscms__form-border-color: #fd4d5d;
+	--rscms__input-border-color: #bd6d9d;
+	--rscms__modal-border-color: var(--rscms__form-border-color);
 	
 	/* Text/link colors */
 	
-	--global--text-color: #fff;
-	--global--link-color: #fa7016;
-	--global--secondary-link-color: #ca4006;
-	--global--active-menu-link-color: #e0b6fa;
-	--global--submenu-hover-link-color: #fac016;
-	--global--table-color: #10040a;
-}
-
-/*------------------------------------*\
-    CONTENT
-\*------------------------------------*/
-
-/* Statistics graph */
-
-.graph-content > li .bar {
-	background-color: #fa7016;
-}
-
-.graph-content > li .bar:hover {
-	background-color: #ff8026;
-}
-
-.graph-overlay li {
-	border-bottom-color: #dd8dad;
+	--rscms__text-color: #fff;
+	--rscms__link-color: #fa7016;
+	--rscms__secondary-link-color: #ca4006;
+	--rscms__active-menu-link-color: #e0b6fa;
+	--rscms__submenu-hover-link-color: #fac016;
+	--rscms__table-color: #10040a;
 }
