@@ -13,5 +13,5 @@ registerAdminTheme('bedrock', array(
 		'name' => 'Jace Fincham',
 		'url' => 'https://jacefincham.com/'
 	),
-	'version' => '1.0'
+	'version' => '1.1'
 ));

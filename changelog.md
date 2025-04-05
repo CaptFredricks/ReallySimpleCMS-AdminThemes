@@ -11,6 +11,21 @@
 - X.x (major release)
 - x.X (standard/minor release)
 
+## Release 2025-04-05a
+
+**General changes:**
+- Updated README
+- Tweaked custom property names and incremented versions
+
+**Modified files:**
+- README.md
+- bedrock/bedrock.css
+- forest/forest.css
+- harvest/harvest.css
+- ocean/ocean.css
+- sky/sky.css
+- sunset/sunset.css
+
 ## Release 2025-03-13b
 
 **General changes:**

@@ -12,5 +12,5 @@ registerAdminTheme('harvest', array(
 		'name' => 'Jace Fincham',
 		'url' => 'https://jacefincham.com/'
 	),
-	'version' => '1.8'
+	'version' => '1.9'
 ));

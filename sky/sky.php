@@ -12,5 +12,5 @@ registerAdminTheme('sky', array(
 		'name' => 'Jace Fincham',
 		'url' => 'https://jacefincham.com/'
 	),
-	'version' => '1.3'
+	'version' => '1.4'
 ));
